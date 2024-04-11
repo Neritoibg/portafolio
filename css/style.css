@@ -1,20 +1,30 @@
 
 /*header*/
-
-.logo__menu{
-    margin-top: 50px;
-}
 .menu__portafolio{
-    color: rgb(99, 16, 16);
+    text-decoration-line: none;
+}
+.logo__menu{
+    margin-top: 100px;
+    color: #6c000a;
     text-align: center;
-    font-size: 150px;
-    text-decoration: none;
+    font-size: 180px;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
     text-transform: uppercase;
 }
 
+.sub__titulo{
+    color: #6c000a;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+}
 
 /*navegacion*/
 .navegacion{
@@ -22,65 +32,82 @@
     justify-content: space-evenly;
 }
 
-.navegacion li{
-    text-align: center;
-    font-size: 20px;
-    margin-top: 45px;
-    
+.navegacion li a{
+    text-align: center; 
+    text-decoration: none;   
+}
+
+.txt_s{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff4d2;
+    text-transform: uppercase;
+    background-color: #6c000a;
+    border: none;
+    border-radius: 25px;
+}
+
+.txt_p{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff4d2;
+    text-transform: uppercase;
+    background-color: #6c000a;
+    border: none;
+    border-radius: 25px;
+}
+
+.txt_c{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff4d2;
+    text-transform: uppercase;
+    background-color: #6c000a;
+    border: none;
+    border-radius: 25px;
 }
 
 .icon__sobremi{
-    width: 250px;
-    padding:  150px 80px;
-    border: none;
-    border-radius: 5%;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .icon__portafolio{
-    width: 250px;
-    padding:  150px 80px;
-    border: none;
-    border-radius: 5%;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .icon__contacto{
-    width: 250px;
-    padding:  150px 80px;
-    border: none;
-    border-radius: 5%;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .icon__sobremi:hover{
-    width: 280px;
-    background-color: brown;
-    border: none;
-    border-radius: 5%;
+    width: 210px;
 }
 
 .icon__portafolio:hover{
-    width: 280px;
-    background-color: brown;
-    border: none;
-    border-radius: 5%;
+    width: 210px;
+    
 }
 
 .icon__contacto:hover{
-    width: 280px;
-    background-color: brown;
-    border: none;
-    border-radius: 5%;
-}
-
-.navegacion a{
-    color: rgb(99, 16, 16);
-    padding: 25px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
-    text-decoration: none;
+    width: 210px;
+   
 }
 
 html{
-    background: url("img/lavap.png");
+    background: #fff4d2;
 }

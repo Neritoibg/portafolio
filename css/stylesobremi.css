@@ -1,0 +1,53 @@
+/*navegacion*/
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 4;
+}
+
+
+.sobre_mi{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff4d2;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #6c000a;
+    border: none;
+    border-radius: 25px;
+}
+
+.Portafolio{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff4d2;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #6c000a;
+    border: none;
+    border-radius: 25px;
+}
+
+.contacto{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #fff4d2;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #6c000a;
+    border: none;
+    border-radius: 25px;
+}
+
+html{
+    background-color: #fff4d2;
+}
