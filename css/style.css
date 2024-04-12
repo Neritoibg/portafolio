@@ -24,17 +24,19 @@
     text-transform: uppercase;
     letter-spacing: 8px;
     margin-bottom: 10px;
+    
 }
 
 /*navegacion*/
 .navegacion{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .navegacion li a{
     text-align: center; 
-    text-decoration: none;   
+    text-decoration: none;  
 }
 
 .txt_s{
@@ -96,16 +98,17 @@
 
 .icon__sobremi:hover{
     width: 210px;
+    transition: all 0.5s;
 }
 
 .icon__portafolio:hover{
     width: 210px;
-    
+    transition: all 0.5s;
 }
 
 .icon__contacto:hover{
     width: 210px;
-   
+    transition: all 0.5s;
 }
 
 html{

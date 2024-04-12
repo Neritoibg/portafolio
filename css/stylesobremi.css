@@ -1,53 +1,44 @@
-/*navegacion*/
-.navegacion{
-    display: flex;
-    justify-content: space-around;
-    flex-grow: 4;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-.sobre_mi{
-    padding: 10px;
+*{
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 25px;
-    color: #fff4d2;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #6c000a;
-    border: none;
-    border-radius: 25px;
 }
 
-.Portafolio{
-    padding: 10px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 25px;
-    color: #fff4d2;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #6c000a;
-    border: none;
-    border-radius: 25px;
-}
-
-.contacto{
-    padding: 10px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 25px;
-    color: #fff4d2;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #6c000a;
-    border: none;
-    border-radius: 25px;
-}
-
-html{
+body{
     background-color: #fff4d2;
 }
+
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+h1{
+    margin: 25px 0px 25px 0px;
+}
+
+.sobre{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+.sobremi__imagen{
+    margin-bottom: 900px;
+    width: 70%;
+    border-radius: 5%;
+    grid-row: 1 / 2;
+}
+
+@media (min-width: 1440px){
+    .sobre{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    
+    }
+    .sobremi__imagen{
+        grid-column: 2 /3;
+    }
+}
+
+
