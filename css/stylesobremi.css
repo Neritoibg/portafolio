@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px  20px;
+    padding: 30px  20px;
 }
 
 .navegacion a{
@@ -62,7 +62,7 @@ P{
 }
 .sobremi__imagen{
     width: 500px;
-    margin-left: 230px;
+    margin-left: 100px;
     border-radius: 20px;
 }
 
