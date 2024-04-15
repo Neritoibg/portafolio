@@ -48,9 +48,11 @@ h1{
 
 P{
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
-    color: #6b000b; 
+    color: #6b000b;
+    text-align: justify;
+    margin-bottom: 20px;
 
 }
 
@@ -66,3 +68,17 @@ P{
     border-radius: 20px;
 }
 
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    width: 300px; 
+    height: 70px;
+}
+
+.derechos{
+    margin-top: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
