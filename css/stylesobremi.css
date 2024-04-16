@@ -82,3 +82,64 @@ P{
     font-weight: 400;
     font-style: normal;
 }
+
+@media screen and (max-width:768px) and (min-width:390px){
+    .navegacion{
+       
+        padding: 20px  10px;
+    }
+
+    .navegacion a{
+        padding: 2px 5px;
+    }
+
+    h1{
+        font-size: 150px;
+    }
+
+    .sobre{
+        margin-top: 2px;
+    }
+    .sobremi{
+        padding: 10px;
+    }
+
+    .pyc{
+        padding: 10px;
+    }
+
+    .sobremi__contenido{
+        width: 725px;
+    }
+
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        width: 768px;
+        padding-left: 20px;
+    }
+    
+    .sobremi__imagen{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 250px;
+    }
+    .iconos{
+        margin-left: 0px;
+        width: 300px; 
+        height: 70px;
+    }
+
+    .derechos{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .footer{
+        width: 768px;
+        margin-left: 20px;
+    }
+    
+}    
