@@ -110,3 +110,9 @@ h1{
     font-weight: 400;
     font-style: normal;
 }
+
+@media (max-width:790px) {
+    h1{
+        font-size: 100px;
+    }
+}
